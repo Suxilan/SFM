@@ -76,13 +76,28 @@
 ---
 
 ## SGBM
-&emsp;&emsp;OpenCV的StereoSGBM模块稍微有点bug，对于像素过多的图像容易出现环状裂缝，
-![disparity_image_010-011](https://github.com/Suxilan/SFM/assets/104193547/a75e6de1-1806-4057-a610-b87becaac2c4 =900x600) ![disparity_image_004-005](https://github.com/Suxilan/SFM/assets/104193547/8c589a6b-89a2-4dbb-8143-669eec5b058e =900x600)
-![图片1](https://github.com/Suxilan/SFM/assets/104193547/a485093f-e4e8-4c19-b3f7-de9b1c6434bd)
+&emsp;&emsp;OpenCV的StereoSGBM模块稍微有点bug，对于像素过多的图像容易出现环状裂缝，这算是本项目的一个重大问题，如果有大佬清楚还请留言指正！
+### result
+<p align = "center">    
+<img  src="https://github.com/Suxilan/SFM/assets/104193547/a75e6de1-1806-4057-a610-b87becaac2c4" width="450" />
+<img  src="https://github.com/Suxilan/SFM/assets/104193547/8c589a6b-89a2-4dbb-8143-669eec5b058e" width="450" />
+</p>
+
+<p align = "center">    
+<img  src="https://github.com/Suxilan/SFM/assets/104193547/a485093f-e4e8-4c19-b3f7-de9b1c6434bd" />
+</p>
 
 ---
 
 ## Reprocess
-![图片3](https://github.com/Suxilan/SFM/assets/104193547/5c0c27a4-af00-4932-8412-5f204a663178) 
-![图片4](https://github.com/Suxilan/SFM/assets/104193547/055a9012-b9b0-4bf6-b5eb-1484038a586a)
-![图片2](https://github.com/Suxilan/SFM/assets/104193547/6959d966-f4f7-4897-a5f5-45b78e6a7dd8)
+&emsp;&emsp;模型结构基本恢复，但一些重叠度较少，几何形变过大的区域还是未能较好恢复出来。从根本来说，基于OpenCV的SFM最终结果好坏取决于密集匹配生成的视差图。但OpenCV的SGBM效果实在感人，如果有更好的算法结果应该会更好。
+### result
+
+<p align = "center">    
+<img  src="https://github.com/Suxilan/SFM/assets/104193547/5c0c27a4-af00-4932-8412-5f204a663178" height="350" />
+<img  src="https://github.com/Suxilan/SFM/assets/104193547/055a9012-b9b0-4bf6-b5eb-1484038a586a" height="350" />
+</p>
+
+<p align = "center">    
+<img  src="https://github.com/Suxilan/SFM/assets/104193547/6959d966-f4f7-4897-a5f5-45b78e6a7dd8" />
+</p>
