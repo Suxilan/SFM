@@ -51,6 +51,8 @@
 # Knnmatch + RANSAC
 &emsp;&emsp;对SIFT提取特征点的描述子进行匹配吗，先利用欧氏距离进行判断后，再通过RANSAC随机抽样剔除误匹配。
 
+![Matches006_007](https://github.com/Suxilan/SFM/assets/104193547/a15837b1-97f1-4ad2-a526-56eb3235690c)
+
 ### tips
 &emsp;&emsp;如果觉得还不保险，可以利用相关系数再进行筛查，或者利用像对所有匹配点建立立体模型后通过视差进行筛查。
 
