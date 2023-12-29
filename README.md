@@ -77,7 +77,7 @@
 
 ## SGBM
 &emsp;&emsp;OpenCV的StereoSGBM模块稍微有点bug，对于像素过多的图像容易出现环状裂缝，
-![disparity_image_010-011](https://github.com/Suxilan/SFM/assets/104193547/a75e6de1-1806-4057-a610-b87becaac2c4=900x600) ![disparity_image_004-005](https://github.com/Suxilan/SFM/assets/104193547/8c589a6b-89a2-4dbb-8143-669eec5b058e=900x600)
+![disparity_image_010-011](https://github.com/Suxilan/SFM/assets/104193547/a75e6de1-1806-4057-a610-b87becaac2c4 =900x600) ![disparity_image_004-005](https://github.com/Suxilan/SFM/assets/104193547/8c589a6b-89a2-4dbb-8143-669eec5b058e =900x600)
 ![图片1](https://github.com/Suxilan/SFM/assets/104193547/a485093f-e4e8-4c19-b3f7-de9b1c6434bd)
 
 ---
