@@ -55,10 +55,10 @@
 ### tips
 *如果觉得还不保险，可以利用相关系数再进行筛查，或者利用像对所有匹配点建立立体模型后通过视差进行筛查*
 
----
-
 ### result
 ![Matches006_007](https://github.com/Suxilan/SFM/assets/104193547/a15837b1-97f1-4ad2-a526-56eb3235690c)
+
+---
 
 ## Bundle Adjustment
 &emsp;&emsp;增量式光束法，先固定第一张，连读定向并纳入新的相片并结算出相机定向矩阵，最终完成闭环。
@@ -71,10 +71,14 @@
 > [0.9999991899327721, 0.0001890098445875153, -0.001258733124230178, 0.007262669527071461;  
 > -0.0001902412202284574, 0.9999995034487985, -0.0009782179892732486, 0.004164857046632328;  
 > 0.001258547606374606, 0.0009784566597764121, 0.9999987293394365, -0.009056912147094606;  
-> 0, 0, 0, 1]  
+> 0, 0, 0, 1]
+
+---
+
 ## SGBM
 &emsp;&emsp;OpenCV的StereoSGBM模块稍微有点bug，对于像素过多的图像容易出现环状裂缝，
-![disparity_image_010-011](https://github.com/Suxilan/SFM/assets/104193547/a75e6de1-1806-4057-a610-b87becaac2c4)
-![disparity_image_004-005](https://github.com/Suxilan/SFM/assets/104193547/8c589a6b-89a2-4dbb-8143-669eec5b058e)
+![disparity_image_010-011](https://github.com/Suxilan/SFM/assets/104193547/a75e6de1-1806-4057-a610-b87becaac2c4) ![disparity_image_004-005](https://github.com/Suxilan/SFM/assets/104193547/8c589a6b-89a2-4dbb-8143-669eec5b058e)
+
+---
 
 ## Reprocess
