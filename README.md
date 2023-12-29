@@ -79,8 +79,8 @@
 &emsp;&emsp;OpenCV的StereoSGBM模块稍微有点bug，对于像素过多的图像容易出现环状裂缝，这算是本项目的一个重大问题，如果有大佬清楚还请留言指正！
 ### result
 <p align = "center">    
-<img  src="https://github.com/Suxilan/SFM/assets/104193547/a75e6de1-1806-4057-a610-b87becaac2c4" width="450" />
-<img  src="https://github.com/Suxilan/SFM/assets/104193547/8c589a6b-89a2-4dbb-8143-669eec5b058e" width="450" />
+<img  src="https://github.com/Suxilan/SFM/assets/104193547/a75e6de1-1806-4057-a610-b87becaac2c4" width="350" />
+<img  src="https://github.com/Suxilan/SFM/assets/104193547/8c589a6b-89a2-4dbb-8143-669eec5b058e" width="350" />
 </p>
 
 <p align = "center">    
@@ -94,8 +94,8 @@
 ### result
 
 <p align = "center">    
-<img  src="https://github.com/Suxilan/SFM/assets/104193547/5c0c27a4-af00-4932-8412-5f204a663178" height="350" />
-<img  src="https://github.com/Suxilan/SFM/assets/104193547/055a9012-b9b0-4bf6-b5eb-1484038a586a" height="350" />
+<img  src="https://github.com/Suxilan/SFM/assets/104193547/5c0c27a4-af00-4932-8412-5f204a663178" height="300" />
+<img  src="https://github.com/Suxilan/SFM/assets/104193547/055a9012-b9b0-4bf6-b5eb-1484038a586a" height="300" />
 </p>
 
 <p align = "center">    
